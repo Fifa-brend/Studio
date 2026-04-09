@@ -1,0 +1,162 @@
+body{
+  margin:0;
+  font-family:'Segoe UI',sans-serif;
+  background:linear-gradient(135deg,#667eea,#764ba2);
+  color:#fff;
+}
+
+/* ===== HEADER ===== */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  margin:10px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.15);
+  backdrop-filter:blur(15px);
+  border:1px solid rgba(238, 212, 10, 0.3);
+  box-shadow:0 8px 32px rgba(0,0,0,0.2);
+}
+
+.logo{
+  font-size:48px;
+  font-weight:700;
+  color: #ffdd59;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+  gap:25px;
+  padding:0;
+  margin:0;
+  
+}
+
+nav a{
+  text-decoration:none;
+  font-size: 16px;
+  font-weight: 700;
+  color:#ffdd59;
+  padding:8px 15px;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+nav a:hover{
+  background:rgba(241, 238, 238, 0.25);
+}
+
+.contacts{
+  text-align:right;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffdd59;
+}
+
+/* ===== HERO ===== */
+.hero{
+  text-align:center;
+  padding:100px 20px 60px;
+}
+
+.hero h1{
+  font-size:48px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  font-size:18px;
+  max-width:600px;
+  margin:0 auto 30px;
+}
+
+.hero button{
+  padding:12px 30px;
+  border:none;
+  border-radius:30px;
+  background:#ffdd59;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.hero button:hover{
+  transform:scale(1.05);
+}
+
+/* ===== SECTIONS ===== */
+.section{
+  padding:60px 20px;
+}
+
+.section-title{
+  text-align:center;
+  margin-bottom:40px;
+  font-size:28px;
+}
+
+.columns{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card{
+  flex:1;
+  min-width:250px;
+  max-width:320px;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+
+  background:rgba(255, 255, 255, 0.303);
+  backdrop-filter:blur(15px);
+  border:1px solid rgba(255,255,255,0.3);
+  box-shadow:0 8px 20px rgba(0,0,0,0.25);
+  transition:0.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 15px 40px rgba(0,0,0,0.4);
+}
+
+.card i{
+  font-size:40px;
+  margin-bottom:15px;
+}
+{
+  .card-image:
+}
+
+/* ===== FOOTER ===== */
+footer{
+  text-align:center;
+  padding:30px;
+  margin-top:40px;
+  font-size:14px;
+  opacity:0.8;
+}
+
+/* ===== ADAPTIVE ===== */
+@media(max-width:900px){
+  header{
+    flex-direction:column;
+    gap:15px;
+    text-align:center;
+  }
+
+  nav ul{
+    flex-direction:column;
+  }
+
+  .contacts{
+    text-align:center;
+  }
+
+  .hero h1{
+    font-size:32px;
+  }}
